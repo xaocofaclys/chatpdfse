@@ -10,10 +10,8 @@ langchain-groq
 langchain-huggingface
 
 # Vector store
-protobuf==3.20.3
-chromadb==0.4.24
-langchain_chroma==0.0.7
-opentelemetry-exporter-otlp==1.24.0
+chromadb
+langchain_chroma
 
 
 # PDF support

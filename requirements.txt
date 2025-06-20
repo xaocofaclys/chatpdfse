@@ -1,26 +1,26 @@
-# Core libraries
-streamlit>=1.30.0
-python-dotenv>=1.0.0
+# Core
+streamlit
+python-dotenv
 
-# LangChain ecosystem
-langchain>=0.1.20
-langchain-core>=0.1.48
-langchain-community>=0.0.33
-langchain-chroma>=0.1.0
-langchain-groq>=0.0.1  # Replace with the latest if available
-langchain-huggingface>=0.0.6
+# LangChain Ecosystem
+langchain
+langchain-core
+langchain-community
+langchain-chroma
+langchain-groq
+langchain-huggingface
 
 # Vector store
-chromadb>=0.4.22
+chromadb
 
-# PDF loading
-PyPDF2>=3.0.1
+# PDF support
+PyPDF2
 
-# Embeddings
-sentence-transformers>=2.2.2
-transformers>=4.41.1
-torch>=2.0.1
+# Embeddings & Transformers
+sentence-transformers
+transformers
+torch
 
-# Misc
-tqdm>=4.66.2
-typing_extensions>=4.11.0
+# Optional but useful
+tqdm
+typing_extensions

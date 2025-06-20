@@ -1,0 +1,27 @@
+# Core libraries
+streamlit>=1.30.0
+python-dotenv>=1.0.0
+
+# LangChain ecosystem
+langchain>=0.1.20
+langchain-core>=0.1.48
+langchain-community>=0.0.33
+langchain-chroma>=0.1.0
+langchain-groq>=0.0.1  # Replace with the latest if available
+langchain-huggingface>=0.0.6
+
+# Vector store
+chromadb>=0.4.22
+
+# PDF loading
+PyPDF2>=3.0.1
+langchain-pdf-loader>=0.0.3  # In case you're using `PyPDFLoader` under that alias
+
+# Embeddings
+sentence-transformers>=2.2.2
+transformers>=4.41.1
+torch>=2.0.1
+
+# Misc
+tqdm>=4.66.2
+typing_extensions>=4.11.0

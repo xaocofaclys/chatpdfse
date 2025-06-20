@@ -1,0 +1,45 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+*.env
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temp folders for PDFs and Chroma
+tempfiles/
+chroma_cache/
+data/
+*.pdf
+
+# Streamlit specific
+.streamlit/secrets.toml
+
+# System-specific
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini

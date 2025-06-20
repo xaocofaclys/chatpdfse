@@ -12,6 +12,7 @@ langchain-huggingface
 # Vector store
 chromadb
 langchain_chroma
+protobuf~=3.19.0
 
 
 # PDF support

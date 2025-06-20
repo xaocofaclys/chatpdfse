@@ -15,7 +15,6 @@ chromadb>=0.4.22
 
 # PDF loading
 PyPDF2>=3.0.1
-langchain-pdf-loader>=0.0.3  # In case you're using `PyPDFLoader` under that alias
 
 # Embeddings
 sentence-transformers>=2.2.2

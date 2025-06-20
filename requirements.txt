@@ -10,10 +10,9 @@ langchain-groq
 langchain-huggingface
 
 # Vector store
-chromadb
+chromadb = 1.0.13
 langchain_chroma
-protobuf~=3.19.0
-sqlite3 >= 3.35.0
+protobuf = 5.29.5
 
 
 # PDF support
